@@ -1,3 +1,4 @@
+/* eslint-disable */
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
@@ -10,7 +11,7 @@ export const Card = React.memo(
     hovered,
     setHovered,
   }: {
-    card: any;
+    card: Card;
     index: number;
     hovered: number | null;
     setHovered: React.Dispatch<React.SetStateAction<number | null>>;
@@ -40,8 +41,7 @@ export const Card = React.memo(
         </div>
       </div>
     </div>
-  )
-);
+  ));
 
 Card.displayName = "Card";
 

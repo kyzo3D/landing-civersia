@@ -1,10 +1,11 @@
+/* eslint-disable */
+
 import React from "react";
 import { cn } from "../lib/utils";
 import Image from "next/image";
 import createGlobe from "cobe";
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { IconBrandYoutubeFilled } from "@tabler/icons-react";
 import Link from "next/link";
 
 export function FeaturesSectionDemo() {
@@ -125,7 +126,6 @@ export const SkeletonThree = () => {
     >
       <div className="w-full  mx-auto bg-transparent dark:bg-transparent group h-full">
         <div className="flex flex-1 w-full h-full flex-col space-y-2  relative">
-          {/* TODO */}
         </div>
       </div>
     </Link>

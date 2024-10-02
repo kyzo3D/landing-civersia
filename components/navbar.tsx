@@ -4,27 +4,11 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
 } from "@nextui-org/navbar";
 import { Link } from "@nextui-org/link";
 import { Button } from "@nextui-org/button";
-import ThemeSwitcher from "@/components/theme-switcher";
-import {
-  Dropdown,
-  DropdownTrigger,
-  DropdownMenu,
-  DropdownItem,
-} from "@nextui-org/dropdown";
-import {
-  ChevronDownIcon,
-  FaceIcon,
-  GlobeIcon,
-  OpenInNewWindowIcon,
-  PersonIcon,
-  TimerIcon,
-} from "@radix-ui/react-icons";
 import React from "react";
 import Image from "next/image"
 
@@ -33,9 +17,6 @@ export default function NavBar() {
 
   return (
     <Navbar isBlurred maxWidth="full">
-      {/* <NavbarContent className="sm:hidden" justify="start">
-        <NavbarMenuToggle />
-      </NavbarContent> */}
       <NavbarContent className="sm:hidden pr-3" justify="start">
         <NavbarBrand>
           <a
@@ -72,62 +53,6 @@ export default function NavBar() {
             Home
           </Button>
         </NavbarItem>
-        {/* <NavbarItem>
-          <Dropdown>
-            <DropdownTrigger>
-              <Button
-                endContent={<ChevronDownIcon />}
-                variant="light"
-                size="sm"
-              >
-                Dropdown
-              </Button>
-            </DropdownTrigger>
-            <DropdownMenu
-              aria-label="ACME features"
-              className="w-[340px]"
-              itemClasses={{
-                base: "gap-4",
-              }}
-            >
-              <DropdownItem
-                key="autoscaling"
-                description="ACME scales apps to meet user demand, automagically, based on load."
-                startContent={<OpenInNewWindowIcon />}
-              >
-                Autoscaling
-              </DropdownItem>
-              <DropdownItem
-                key="usage_metrics"
-                description="Real-time metrics to debug issues. Slow query added? We’ll show you exactly where."
-                startContent={<PersonIcon />}
-              >
-                Usage Metrics
-              </DropdownItem>
-              <DropdownItem
-                key="production_ready"
-                description="ACME runs on ACME, join us and others serving requests at web scale."
-                startContent={<GlobeIcon />}
-              >
-                Production Ready
-              </DropdownItem>
-              <DropdownItem
-                key="99_uptime"
-                description="Applications stay on the grid with high availability and high uptime guarantees."
-                startContent={<TimerIcon />}
-              >
-                +99% Uptime
-              </DropdownItem>
-              <DropdownItem
-                key="supreme_support"
-                description="Overcome any challenge with a supporting team ready to respond."
-                startContent={<FaceIcon />}
-              >
-                +Supreme Support
-              </DropdownItem>
-            </DropdownMenu>
-          </Dropdown>
-        </NavbarItem> */}
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="hidden sm:flex">
@@ -152,9 +77,6 @@ export default function NavBar() {
             Sign up
           </Button>
         </NavbarItem>
-        {/* <NavbarItem>
-          <ThemeSwitcher />
-        </NavbarItem> */}
       </NavbarContent>
       <NavbarMenu>
         {menuItems.map((item, index) => (

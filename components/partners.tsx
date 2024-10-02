@@ -1,11 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
-import { Tooltip } from "@nextui-org/tooltip";
 import React from "react";
 import BlurIn from "./blur-in";
-import { FeaturesSectionDemo } from "./card-section";
 import SparklesText from "./sparkles-text";
-import { Card, CardBody } from "@nextui-org/react";
 import FeaturesEcommerce from "./features_ecommerce";
 import Features from "./features";
 

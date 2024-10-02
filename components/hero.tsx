@@ -1,21 +1,10 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import { Button } from "@nextui-org/button";
 import { motion } from "framer-motion";
-import {
-  Modal,
-  ModalContent,
-  ModalHeader,
-  ModalBody,
-  ModalFooter,
-} from "@nextui-org/modal";
-import { useDisclosure } from "@nextui-org/use-disclosure";
-import { Link } from "@nextui-org/link";
 import React from "react";
 import { RainbowButton } from "../components/rainbow-button";
 
 export default function Hero() {
-  const { isOpen, onOpen, onOpenChange } = useDisclosure();
   return (
     <div className="relative justify-center items-center">
       <section className="max-w-screen-xl mx-auto px-4 py-20 gap-12 md:px-8 flex flex-col justify-center items-center">
@@ -33,19 +22,6 @@ export default function Hero() {
               Civersia Beta is out!
             </p>
           </span>
-          {/* <h1 className="z-10 text-4xl font-medium tracking-tighter mx-auto md:text-6xl text-pretty ">
-            Effortless 3D Creation Powered by AI: Transform Your Digital Experiences
-          </h1>
-          <p className="z-10 max-w-2xl text-lg mx-auto text-muted-foreground text-balance">
-            From scanning real objects to creating immersive AR/VR, unlock the full potential of 3D modeling—all in your browser.
-          </p>
-          <br />
-          <p className="z-10 max-w-2xl text-lg mx-auto text-muted-foreground text-balance">
-            Experience next-gen 3D models for your e-commerce, marketing, or interactive experiences. No coding required.
-          </p> */}
-          {/* <h1 className="z-10 text-4xl font-medium tracking-tighter mx-auto md:text-6xl text-pretty ">
-            From your mind to creativity in three dimesions.
-          </h1> */}
           <h1 className="z-10 text-4xl font-medium tracking-tighter mx-auto md:text-6xl text-pretty ">
             Revolutionize your e-commerce with AI-Powered 3D visualization
           </h1>

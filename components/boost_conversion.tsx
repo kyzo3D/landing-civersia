@@ -2,14 +2,8 @@ import { FadeText } from "./fade-text";
 import { Iphone15Pro } from "./iphone-15-pro";
 import { NumberTicker } from "./number_ticker";
 import { RainbowButton } from "./rainbow-button";
-import ShinyButton from "./shiny-button";
 import { WordPullUp } from "./word-pull-up";
 
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/9ZBE7vzHNgP
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
 export default function BoostConversion() {
     return (
       <section className="w-full dark:bg-muted dark">

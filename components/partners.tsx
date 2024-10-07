@@ -13,7 +13,7 @@ export default function Partners() {
         <FeaturesEcommerce />
       </div>
 
-      <div className="justify-center items-center text-center">
+      <div className="mt-20 justify-center items-center text-center">
         <motion.div
           initial={{ y: 20, opacity: 0, filter: "blur(3px)" }}
           whileInView={{

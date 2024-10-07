@@ -3,9 +3,9 @@ import GenerativeAI from "./IA_gen"
 
 export default function Features() {
     return (
-      <section className="mt-10 w-full dark:bg-muted dark">
+      <section className="w-full dark:bg-muted dark">
         <GenerativeAI />
-        <div className="container grid gap-3 px-4 md:grid-cols-2 lg:grid-cols-3 md:px-6">
+        <div className="w-full mx-auto container grid gap-3 px-4 md:grid-cols-2 lg:grid-cols-3 md:px-6">
           <div className="group relative overflow-hidden rounded-2xl bg-background shadow-sm transition-all hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(255,0,85,1),0_0_120px_rgba(112,0,239,1)] dark:bg-card">
             <div className="absolute inset-0 z-10 bg-gradient-to-tr from-[#7000ef] to-[#ff0055] opacity-10 transition-opacity group-hover:opacity-20" />
             <div className="flex h-full flex-col justify-between p-8">

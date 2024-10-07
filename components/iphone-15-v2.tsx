@@ -56,15 +56,21 @@ export function Iphone15ProV2({
       />
 
       {src && (
-        <image
-          href={src}
-          x="21.25"
-          y="19.25"
-          width="389.5"
-          height="843.5"
-          preserveAspectRatio="xMidYMid slice"
-          clipPath="url(#roundedCorners)"
-        />
+        <foreignObject x="21.25" y="19.25" width="389.5" height="843.5">
+          <video
+            src={src}
+            autoPlay
+            loop
+            muted
+            playsInline
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              borderRadius: '55.75px',
+            }}
+          />
+        </foreignObject>
       )}
       <path
         d="M154 48.5C154 38.2827 162.283 30 172.5 30H259.5C269.717 30 278 38.2827 278 48.5C278 58.7173 269.717 67 259.5 67H172.5C162.283 67 154 58.7173 154 48.5Z"
@@ -78,18 +84,6 @@ export function Iphone15ProV2({
         d="M254 48.5C254 45.4624 256.462 43 259.5 43C262.538 43 265 45.4624 265 48.5C265 51.5376 262.538 54 259.5 54C256.462 54 254 51.5376 254 48.5Z"
         className="fill-[#E5E5E5] dark:fill-[#404040]"
       />
-      <defs>
-        <clipPath id="roundedCorners">
-          <rect
-            x="21.25"
-            y="19.25"
-            width="389.5"
-            height="843.5"
-            rx="55.75"
-            ry="55.75"
-          />
-        </clipPath>
-      </defs>
     </svg>
   );
 }

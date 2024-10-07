@@ -48,11 +48,11 @@ export default function NavBar() {
             />
           </a>
         </NavbarBrand>
-        <NavbarItem>
+        {/* <NavbarItem>
           <Button as={Link} variant="light" size="sm">
             Home
           </Button>
-        </NavbarItem>
+        </NavbarItem> */}
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="hidden sm:flex">

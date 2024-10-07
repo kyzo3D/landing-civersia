@@ -3,11 +3,9 @@ import { Card, CardBody, CardFooter } from "@nextui-org/card";
 import { Button } from "@nextui-org/button";
 import { Divider } from "@nextui-org/divider";
 import { motion } from "framer-motion";
-import { useState } from "react";
 import {Tabs, Tab} from "@nextui-org/tabs";
 
 export default function Pricing() {
-  const [isSelected, setIsSelected] = useState(true);
 
   const plans = [
     {

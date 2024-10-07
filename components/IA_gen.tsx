@@ -1,7 +1,5 @@
 import BlurIn from "./blur-in";
-import { FadeText } from "./fade-text";
 import { Iphone15ProV2 } from "./iphone-15-v2";
-import { NumberTicker } from "./number_ticker";
 import { RainbowButton } from "./rainbow-button";
 import { WordPullUp } from "./word-pull-up";
 

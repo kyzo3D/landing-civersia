@@ -1,6 +1,6 @@
 import { Button } from "@nextui-org/button";
 import { Link } from "@nextui-org/link";
-import { InstagramLogoIcon, LinkedInLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
+import { LinkedInLogoIcon } from "@radix-ui/react-icons";
 
 const Footer = () => {
   return (
@@ -18,15 +18,6 @@ const Footer = () => {
           >
           <LinkedInLogoIcon width={44} height={44} />
         </Button>
-        {/* <Button
-          as={Link}
-          href="https://www.instagram.com/civersia/"
-          color="default"
-          variant="light"
-          size="lg"
-          >
-          <InstagramLogoIcon width={44} height={44} />
-        </Button> */}
         <Button
           as={Link}
           href="https://x.com/civersia"

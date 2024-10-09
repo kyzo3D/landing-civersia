@@ -41,6 +41,7 @@ export default function RootLayout({
         <noscript>
           <iframe src="https://www.googletagmanager.com/ns.html?id=G-LQG1D43NH3" height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe>
         </noscript>
+        <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/2342e491ed19e7ceed863ece/script.js"></script>
       </body>
     </html>
   );

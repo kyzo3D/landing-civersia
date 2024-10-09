@@ -77,9 +77,11 @@ export default function BoostConversion() {
                                     words="Join waitlist!"
                                     />
                                 <RainbowButton>
-                                    <p className="font-bold text-black">
-                                        Join
-                                    </p>
+                                    <a target="_blank" href="https://forms.gle/cumctGouWJz2Px737">
+                                        <p className="font-bold text-black">
+                                            Join
+                                        </p>
+                                    </a>
                                 </RainbowButton>
                             </div>
                         </div>
@@ -163,9 +165,11 @@ export default function BoostConversion() {
                                     words="Join waitlist now!"
                                 />
                                 <RainbowButton>
-                                    <p className="text-center font-bold text-black">
-                                        Join
-                                    </p>
+                                    <a target="_blank" href="https://forms.gle/cumctGouWJz2Px737">
+                                        <p className="text-center font-bold text-black">
+                                            Join
+                                        </p>
+                                    </a>
                                 </RainbowButton>
                             </div>
                         </div>

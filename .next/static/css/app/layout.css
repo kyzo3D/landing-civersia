@@ -771,6 +771,10 @@ video {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
 }
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
 .my-16 {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -799,10 +803,6 @@ video {
   margin-top: auto;
   margin-bottom: auto;
 }
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
 .-ml-20 {
   margin-left: -5rem;
 }
@@ -815,6 +815,12 @@ video {
 .-ms-2 {
   margin-inline-start: -0.5rem;
 }
+.-mt-11 {
+  margin-top: -2.75rem;
+}
+.-mt-16 {
+  margin-top: -4rem;
+}
 .-mt-20 {
   margin-top: -5rem;
 }
@@ -826,6 +832,9 @@ video {
 }
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+.mb-11 {
+  margin-bottom: 2.75rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
@@ -871,21 +880,6 @@ video {
 }
 .mt-5 {
   margin-top: 1.25rem;
-}
-.mb-11 {
-  margin-bottom: 2.75rem;
-}
-.mb-8 {
-  margin-bottom: 2rem;
-}
-.-mt-10 {
-  margin-top: -2.5rem;
-}
-.-mt-16 {
-  margin-top: -4rem;
-}
-.-mt-11 {
-  margin-top: -2.75rem;
 }
 .box-border {
   box-sizing: border-box;
@@ -1002,6 +996,9 @@ video {
 .h-\[2px\] {
   height: 2px;
 }
+.h-\[400px\] {
+  height: 400px;
+}
 .h-\[600px\] {
   height: 600px;
 }
@@ -1031,15 +1028,6 @@ video {
 }
 .h-screen {
   height: 100vh;
-}
-.h-3\/5 {
-  height: 60%;
-}
-.h-\[128px\] {
-  height: 128px;
-}
-.h-\[400px\] {
-  height: 400px;
 }
 .max-h-12 {
   max-height: 3rem;
@@ -1175,9 +1163,6 @@ video {
 }
 .w-screen {
   width: 100vw;
-}
-.w-3\/5 {
-  width: 60%;
 }
 .min-w-10 {
   min-width: 2.5rem;
@@ -1639,6 +1624,11 @@ video {
   margin-right: calc(0.125rem * var(--tw-space-x-reverse));
   margin-left: calc(0.125rem * calc(1 - var(--tw-space-x-reverse)));
 }
+.space-y-11 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.75rem * var(--tw-space-y-reverse));
+}
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1658,11 +1648,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
-}
-.space-y-11 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(2.75rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2.75rem * var(--tw-space-y-reverse));
 }
 .self-center {
   align-self: center;

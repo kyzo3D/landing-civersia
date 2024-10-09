@@ -33,9 +33,11 @@ export default function Hero() {
             className="z-10 items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0"
           >
             <RainbowButton>
-              <p className="font-bold text-black">
-                Boost your sales with 3D
-              </p>
+              <a target="_blank" href="https://forms.gle/cumctGouWJz2Px737">
+                <p className="font-bold text-black">
+                  Boost your sales with 3D
+                </p>
+              </a>
             </RainbowButton>
           </motion.div>
         </motion.div>

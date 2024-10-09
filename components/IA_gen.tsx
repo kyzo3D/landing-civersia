@@ -67,9 +67,11 @@ export default function GenerativeAI() {
                                         words="Join waitlist!"
                                     />
                                     <RainbowButton>
-                                        <p className="font-bold text-black">
-                                            Join!
-                                        </p>
+                                        <a target="_blank" href="https://forms.gle/cumctGouWJz2Px737">
+                                            <p className="font-bold text-black">
+                                                Join!
+                                            </p>
+                                        </a>
                                     </RainbowButton>
                                 </div>
                             </div>
@@ -119,9 +121,11 @@ export default function GenerativeAI() {
                                 </div>
                                 <div className="p-3 rounded-3xl items-center justify-between flex gap-4 bg-gradient-to-tr from-white/0 to-[#ff0054]/50 border border-white/20">
                                     <RainbowButton>
-                                        <p className="font-medium w-full text-black">
-                                            Join waitlist
-                                        </p>
+                                        <a target="_blank" href="https://forms.gle/cumctGouWJz2Px737">
+                                            <p className="font-medium w-full text-black">
+                                                Join waitlist
+                                            </p>
+                                        </a>
                                     </RainbowButton>
                                 </div>
                             </div>

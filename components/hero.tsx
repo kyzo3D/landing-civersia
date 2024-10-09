@@ -19,7 +19,7 @@ export default function Hero() {
         >
           <span className="z-10 bg-white/5 w-fit h-full text-sm px-5 py-2 border border-white/10 rounded-full">
             <p className="z-10 text-lg tracking-wider">
-              Civersia Beta is out!
+              Civersia Beta!
             </p>
           </span>
           <h1 className="z-10 text-4xl font-medium tracking-tighter mx-auto md:text-6xl text-pretty ">

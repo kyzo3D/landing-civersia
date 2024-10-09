@@ -4,6 +4,7 @@ import "./globals.css";
 import { Providers } from "./providers";
 import PlausibleProvider from "next-plausible";
 import { GoogleTagManager } from "@next/third-parties/google";
+import Script from "next/script";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,7 +33,6 @@ export default function RootLayout({
     <html className="dark" lang="en" suppressHydrationWarning>
       <head>
         <PlausibleProvider domain={domain} customDomain={customDomain} />
-        <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/2342e491ed19e7ceed863ece/script.js"></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
@@ -42,6 +42,7 @@ export default function RootLayout({
         <noscript>
           <iframe src="https://www.googletagmanager.com/ns.html?id=G-LQG1D43NH3" height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe>
         </noscript>
+        <Script strategy="afterInteractive" id="cookieyes" src="https://cdn-cookieyes.com/client_data/2342e491ed19e7ceed863ece/script.js" />
       </body>
     </html>
   );

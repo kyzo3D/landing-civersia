@@ -58,25 +58,25 @@ export default function NavBar() {
         <NavbarItem className="hidden sm:flex">
           <Button
             as={Link}
-            href="https://x.com/gonzalochale"
+            href="https://forms.gle/cumctGouWJz2Px737"
             variant="solid"
             className=" backdrop-blur-lg bg-transparent border border-[#5900ff] shadow-xl shadow-[#5900ff]/40 text-white text-md hidden sm:flex"
             size="sm"
           >
-            Sign in
+            Join waitlist
           </Button>
         </NavbarItem>
-        <NavbarItem className="hidden sm:flex">
+        {/* <NavbarItem className="hidden sm:flex">
           <Button
             as={Link}
-            href="https://x.com/gonzalochale"
+            href="https://app.civersia.com/sign-up"
             variant="solid"
             className="bg-gradient-to-tr from-[#280b15] via-[#691d36] to-[#ff0054] shadow-xl shadow-[#ff0054]/50 text-white text-md hidden sm:flex"
             size="sm"
           >
             Sign up
           </Button>
-        </NavbarItem>
+        </NavbarItem> */}
       </NavbarContent>
       <NavbarMenu>
         {menuItems.map((item, index) => (
